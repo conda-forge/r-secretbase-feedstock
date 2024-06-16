@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/secretbase_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/secretbase/secretbase_{{ version }}.tar.gz
-  sha256: e42d5f5d50717e22bec97e072f8dcee08c267c5af990a2eeebf1d2b4c897bd13
+  sha256: 90a34d65ef476b839508e29fb188d2abf49eed76b29086476b8f69c3ef9dd5d2
 
 build:
   merge_build_host: true  # [win]
