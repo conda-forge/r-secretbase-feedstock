@@ -1,4 +1,4 @@
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/secretbase_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/secretbase/secretbase_{{ version }}.tar.gz
-  sha256: e86fdef5a57ac6b00669092ede5ac26dad27b03e19c1f72bd79128019c68c7a6
+  sha256: 5a8d54c07c4e2a12b50d06dcfd20d778f307d8418cd3aae390b04f0d546bb091
 
 build:
   number: 0
